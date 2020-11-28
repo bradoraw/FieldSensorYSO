@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Brad\Documents\Nth\FieldSensorYSO\FieldSensorYSO.sch</source>
+    <date>11/27/2020 6:08:22 PM</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Magnetic Field Sensor - YSO</title>
+        <company>NthDegree</company>
+        <rev>1</rev>
+        <date>2020-11-27</date>
+        <source>FieldSensorYSO.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Y1">
+      <value>Field_Sensor_54_22</value>
+      <footprint>project:Field_Sensor_54_22</footprint>
+      <libsource lib="project" part="Field_Sensor_54_22" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC37E3B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>22-28-4023</value>
+      <footprint>project:Molex-22-28-4023-0-0-0</footprint>
+      <datasheet>http://www.molex.com/webdocs/datasheets/pdf/en-us/0022284023_PCB_HEADERS.pdf</datasheet>
+      <fields>
+        <field name="category">Conn</field>
+        <field name="contact material">Gold,Tin</field>
+        <field name="current rating">4A</field>
+        <field name="device class L1">Connectors</field>
+        <field name="device class L2">Headers and Wire Housings</field>
+        <field name="device class L3">unset</field>
+        <field name="digikey description">CONN HEADER 2POS .100 VERT GOLD</field>
+        <field name="digikey part number">WM6502-ND</field>
+        <field name="footprint url">https://www.molex.com/pdm_docs/sd/022284023_sd.pdf</field>
+        <field name="height">8.88mm</field>
+        <field name="is connector">yes</field>
+        <field name="is male">yes</field>
+        <field name="lead free">yes</field>
+        <field name="library id">28d0a47b847b26ce</field>
+        <field name="manufacturer">Molex</field>
+        <field name="mouser description">2.54mm 0.100in Pitch KK® Header, Breakaway, Vertical, 2 Circuits, Tin (Sn) Plating, Mating Pin Length 7.49mm 0.295in</field>
+        <field name="mouser part number">538-22-28-4023</field>
+        <field name="number of contacts">2</field>
+        <field name="number of rows">1</field>
+        <field name="package">HDR2</field>
+        <field name="rohs">yes</field>
+        <field name="voltage rating">500V</field>
+      </fields>
+      <libsource lib="project" part="22-28-4023" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC39A28</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>22-28-4023</value>
+      <footprint>project:Molex-22-28-4023-0-0-0</footprint>
+      <datasheet>http://www.molex.com/webdocs/datasheets/pdf/en-us/0022284023_PCB_HEADERS.pdf</datasheet>
+      <fields>
+        <field name="category">Conn</field>
+        <field name="contact material">Gold,Tin</field>
+        <field name="current rating">4A</field>
+        <field name="device class L1">Connectors</field>
+        <field name="device class L2">Headers and Wire Housings</field>
+        <field name="device class L3">unset</field>
+        <field name="digikey description">CONN HEADER 2POS .100 VERT GOLD</field>
+        <field name="digikey part number">WM6502-ND</field>
+        <field name="footprint url">https://www.molex.com/pdm_docs/sd/022284023_sd.pdf</field>
+        <field name="height">8.88mm</field>
+        <field name="is connector">yes</field>
+        <field name="is male">yes</field>
+        <field name="lead free">yes</field>
+        <field name="library id">28d0a47b847b26ce</field>
+        <field name="manufacturer">Molex</field>
+        <field name="mouser description">2.54mm 0.100in Pitch KK® Header, Breakaway, Vertical, 2 Circuits, Tin (Sn) Plating, Mating Pin Length 7.49mm 0.295in</field>
+        <field name="mouser part number">538-22-28-4023</field>
+        <field name="number of contacts">2</field>
+        <field name="number of rows">1</field>
+        <field name="package">HDR2</field>
+        <field name="rohs">yes</field>
+        <field name="voltage rating">500V</field>
+      </fields>
+      <libsource lib="project" part="22-28-4023" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC3B79B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="project" part="22-28-4023">
+      <docs>http://www.molex.com/webdocs/datasheets/pdf/en-us/0022284023_PCB_HEADERS.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">22-28-4023</field>
+        <field name="Footprint">project:Molex-22-28-4023-0-0-0</field>
+        <field name="category">Conn</field>
+        <field name="contact material">Gold,Tin</field>
+        <field name="current rating">4A</field>
+        <field name="device class L1">Connectors</field>
+        <field name="device class L2">Headers and Wire Housings</field>
+        <field name="device class L3">unset</field>
+        <field name="digikey description">CONN HEADER 2POS .100 VERT GOLD</field>
+        <field name="digikey part number">WM6502-ND</field>
+        <field name="footprint url">https://www.molex.com/pdm_docs/sd/022284023_sd.pdf</field>
+        <field name="height">8.88mm</field>
+        <field name="is connector">yes</field>
+        <field name="is male">yes</field>
+        <field name="lead free">yes</field>
+        <field name="library id">28d0a47b847b26ce</field>
+        <field name="manufacturer">Molex</field>
+        <field name="mouser description">2.54mm 0.100in Pitch KK® Header, Breakaway, Vertical, 2 Circuits, Tin (Sn) Plating, Mating Pin Length 7.49mm 0.295in</field>
+        <field name="mouser part number">538-22-28-4023</field>
+        <field name="number of contacts">2</field>
+        <field name="number of rows">1</field>
+        <field name="package">HDR2</field>
+        <field name="rohs">yes</field>
+        <field name="voltage rating">500V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="project" part="Field_Sensor_54_22">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Field_Sensor_54_22</field>
+        <field name="Footprint">project:Field_Sensor_54_22</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="project">
+      <uri>C:\Users\Brad\Documents\Nth\FieldSensorYSO/project.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="Y1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="4" name="/HSEN">
+      <node ref="Y1" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+  </nets>
+</export>

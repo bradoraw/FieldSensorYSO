@@ -1,0 +1,108 @@
+{
+  "Header":
+  {
+    "GenerationSoftware":
+    {
+      "Vendor":      "KiCad",
+      "Application": "Pcbnew",
+      "Version":     "(5.1.8)-1"
+    },
+    "CreationDate":  "2020-11-27T18:17:46-07:00"
+  },
+  "GeneralSpecs":
+  {
+    "ProjectId":
+    {
+      "Name": "FieldSensorYSO",
+      "GUID": "4669656c-6453-4656-9e73-6f7259534f2e",
+      "Revision": "1"
+    },
+    "Size":
+    {
+      "X": 64.000,
+      "Y": 26.000
+    },
+    "LayerNumber": 2,
+    "BoardThickness":  1.600
+  },
+  "DesignRules":
+  [
+    {
+      "Layers": "Outer",
+      "PadToPad":  0.200,
+      "PadToTrack":  0.200,
+      "TrackToTrack":  0.200,
+      "MinLineWidth":  0.250
+    }
+  ],
+  "FilesAttributes":
+  [
+    {
+      "Path":  "FieldSensorYSO-F_Cu.gbr",
+      "FileFunction":  "Copper,L1,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "FieldSensorYSO-B_Cu.gbr",
+      "FileFunction":  "Copper,L2,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "FieldSensorYSO-F_SilkS.gbr",
+      "FileFunction":  "Legend,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "FieldSensorYSO-B_SilkS.gbr",
+      "FileFunction":  "Legend,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "FieldSensorYSO-F_Mask.gbr",
+      "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "FieldSensorYSO-B_Mask.gbr",
+      "FileFunction":  "SolderMask,Bot",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "FieldSensorYSO-Edge_Cuts.gbr",
+      "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    }
+  ],
+  "MaterialStackup":
+  [
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer F.Mask"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer F.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L1/L2"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer B.Cu"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer B.SilkS"
+    }
+  ]
+}
