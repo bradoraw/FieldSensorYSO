@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.8)-1"
+      "Version":     "(5.1.5-0-10_14)"
     },
-    "CreationDate":  "2020-11-27T18:17:46-07:00"
+    "CreationDate":  "2021-01-27T12:26:26-07:00"
   },
   "GeneralSpecs":
   {
@@ -15,12 +15,12 @@
     {
       "Name": "FieldSensorYSO",
       "GUID": "4669656c-6453-4656-9e73-6f7259534f2e",
-      "Revision": "1"
+      "Revision": "2"
     },
     "Size":
     {
-      "X": 64.000,
-      "Y": 26.000
+      "X": 60.000,
+      "Y": 25.500
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -45,6 +45,11 @@
     {
       "Path":  "FieldSensorYSO-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "FieldSensorYSO-B_Paste.gbr",
+      "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
@@ -99,6 +104,10 @@
     {
       "Type":  "SolderMask",
       "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer B.Paste"
     },
     {
       "Type":  "Legend",

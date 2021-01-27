@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\Brad\Documents\Nth\FieldSensorYSO\FieldSensorYSO.sch</source>
-    <date>11/27/2020 6:08:22 PM</date>
-    <tool>Eeschema (5.1.8)-1</tool>
+    <source>/Users/bradoraw/Desktop/Nth/FieldSensorYSO/FieldSensorYSO.sch</source>
+    <date>Wednesday, January 27, 2021 at 12:27:26 PM</date>
+    <tool>Eeschema (5.1.5-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Magnetic Field Sensor - YSO</title>
         <company>NthDegree</company>
-        <rev>1</rev>
-        <date>2020-11-27</date>
+        <rev>2</rev>
+        <date>2021-01-27</date>
         <source>FieldSensorYSO.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -25,38 +25,6 @@
       <libsource lib="project" part="Field_Sensor_54_22" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FC37E3B</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>22-28-4023</value>
-      <footprint>project:Molex-22-28-4023-0-0-0</footprint>
-      <datasheet>http://www.molex.com/webdocs/datasheets/pdf/en-us/0022284023_PCB_HEADERS.pdf</datasheet>
-      <fields>
-        <field name="category">Conn</field>
-        <field name="contact material">Gold,Tin</field>
-        <field name="current rating">4A</field>
-        <field name="device class L1">Connectors</field>
-        <field name="device class L2">Headers and Wire Housings</field>
-        <field name="device class L3">unset</field>
-        <field name="digikey description">CONN HEADER 2POS .100 VERT GOLD</field>
-        <field name="digikey part number">WM6502-ND</field>
-        <field name="footprint url">https://www.molex.com/pdm_docs/sd/022284023_sd.pdf</field>
-        <field name="height">8.88mm</field>
-        <field name="is connector">yes</field>
-        <field name="is male">yes</field>
-        <field name="lead free">yes</field>
-        <field name="library id">28d0a47b847b26ce</field>
-        <field name="manufacturer">Molex</field>
-        <field name="mouser description">2.54mm 0.100in Pitch KK® Header, Breakaway, Vertical, 2 Circuits, Tin (Sn) Plating, Mating Pin Length 7.49mm 0.295in</field>
-        <field name="mouser part number">538-22-28-4023</field>
-        <field name="number of contacts">2</field>
-        <field name="number of rows">1</field>
-        <field name="package">HDR2</field>
-        <field name="rohs">yes</field>
-        <field name="voltage rating">500V</field>
-      </fields>
-      <libsource lib="project" part="22-28-4023" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FC39A28</tstamp>
     </comp>
     <comp ref="J2">
       <value>22-28-4023</value>
@@ -89,6 +57,190 @@
       <libsource lib="project" part="22-28-4023" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FC3B79B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>22-28-4043</value>
+      <footprint>project:Molex-SD-42375-001-0-0-0</footprint>
+      <datasheet>http://www.molex.com/pdm_docs/sd/022284043_sd.pdf</datasheet>
+      <fields>
+        <field name="3D model">http://www.molex.com/pdm_docs/stp/22-28-4043_stp.zip</field>
+        <field name="Application">Board-to-Board, Signal, Wire-to-Board</field>
+        <field name="Breakaway">Yes</field>
+        <field name="CSA">LR19980</field>
+        <field name="Category">PCB Headers</field>
+        <field name="Circuits Loaded">4</field>
+        <field name="Circuits maximum">4</field>
+        <field name="Color   Resin">Black</field>
+        <field name="Current   Maximum per Contact">4.0A</field>
+        <field name="Durability mating cycles max">100</field>
+        <field name="Duration at Max Process Temperature seconds">005</field>
+        <field name="First Mate  Last Break">No</field>
+        <field name="Flammability">94V-0</field>
+        <field name="Glow Wire Compliant">No</field>
+        <field name="Guide to Mating Part">No</field>
+        <field name="Keying to Mating Part">None</field>
+        <field name="Lead freeProcess Capability">WAVE</field>
+        <field name="Lock to Mating Part">None</field>
+        <field name="Material   Metal">Brass</field>
+        <field name="Material   Plating Mating">Gold</field>
+        <field name="Material   Plating Termination">Tin</field>
+        <field name="Material   Resin">High Temperature Thermoplastic</field>
+        <field name="Max Cycles at Max Process Temperature">001</field>
+        <field name="Net Weight">0.244/g</field>
+        <field name="Number of Rows">1</field>
+        <field name="Old Part Number">42375-0039</field>
+        <field name="Orientation">Vertical</field>
+        <field name="Overview">KK® Interconnect System - Molex</field>
+        <field name="PC Tail Length">3.18mm</field>
+        <field name="PCB Locator">No</field>
+        <field name="PCB Retention">None</field>
+        <field name="PCB Thickness   Recommended">1.60mm</field>
+        <field name="Packaging Type">Bag</field>
+        <field name="Pitch   Mating Interface">2.54mm</field>
+        <field name="Plating min   Mating">0.381μm</field>
+        <field name="Plating min   Termination">2.540μm</field>
+        <field name="Polarized to Mating Part">No</field>
+        <field name="Polarized to PCB">No</field>
+        <field name="Process Temperature max C">260</field>
+        <field name="Product Name">KK® 254</field>
+        <field name="Product Specification">PS-10-07</field>
+        <field name="Sales Drawing">SD-42375-001</field>
+        <field name="Series">42375</field>
+        <field name="Shrouded">No</field>
+        <field name="Stackable">No</field>
+        <field name="Surface Mount Compatible SMC">Yes</field>
+        <field name="Temperature Range   Operating">See Product Specification</field>
+        <field name="Termination Interface Style">Through Hole</field>
+        <field name="UL">E29179</field>
+        <field name="UPC">800754386197</field>
+        <field name="Voltage   Maximum">250V</field>
+        <field name="category">Conn</field>
+        <field name="category 0836c53c3d42d3f1">Connectors</field>
+        <field name="category 75fab8f04590ae3d">Connectors and Adapters</field>
+        <field name="category e7012a0bd22e3cc6">Headers &amp; Receptacles</field>
+        <field name="color">Black</field>
+        <field name="contact material">Brass</field>
+        <field name="contact plating">Gold</field>
+        <field name="current rating">4 A</field>
+        <field name="digikey description">CONN HEADER 4POS .100 VERT GOLD</field>
+        <field name="digikey part number">WM50016-04-ND</field>
+        <field name="flammability rating">UL 94 V-0</field>
+        <field name="gender">Male</field>
+        <field name="glow wire compliant">Non-Compliant</field>
+        <field name="halogen free status">Not Low Halogen</field>
+        <field name="housing color">Black</field>
+        <field name="ipc land pattern name">HDRV4W66P254_1X4_1016X66X457</field>
+        <field name="is connector">yes</field>
+        <field name="is male">yes</field>
+        <field name="lead free">yes</field>
+        <field name="library id">1b2cd2f48c261c21</field>
+        <field name="manufacturer">Molex</field>
+        <field name="mounting type">through hole</field>
+        <field name="mouser part number">538-22-28-4043</field>
+        <field name="num pins">4</field>
+        <field name="number of circuits">4 </field>
+        <field name="number of contacts">4 </field>
+        <field name="number of positions">4 </field>
+        <field name="number of rows">1 </field>
+        <field name="octopart part number">44448d4a5f9d9b83</field>
+        <field name="orientation">Vertical</field>
+        <field name="package">CONN_PTH_HDR4</field>
+        <field name="part page">http://www.molex.com/molex/products/datasheet.jsp?part=active/0022284043_PCB_HEADERS.xml</field>
+        <field name="pin pitch">2.54 mm</field>
+        <field name="rohs">yes</field>
+        <field name="size height">2.29 mm</field>
+        <field name="size length">10.16 mm</field>
+        <field name="size width">2.49 mm</field>
+        <field name="temperature range high">+80°C</field>
+        <field name="temperature range low">-40°C</field>
+        <field name="type">connector</field>
+        <field name="voltage">250V</field>
+        <field name="voltage rating dc">250 V</field>
+      </fields>
+      <libsource lib="project" part="22-28-4043" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6011DE8C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>CC0603KRX7R9BB102</value>
+      <footprint>project:YAGEO-CC0603-0-0-0</footprint>
+      <fields>
+        <field name="automotive">No</field>
+        <field name="capacitance">1.0 nF</field>
+        <field name="category">Cap</field>
+        <field name="device class L1">Passive Components</field>
+        <field name="device class L2">Capacitors</field>
+        <field name="device class L3">Ceramic Capacitors</field>
+        <field name="digikey description">CAP CER 1000PF 50V X7R 0603</field>
+        <field name="digikey part number">311-1080-2-ND</field>
+        <field name="footprint url">http://www.yageo.com/exep/pages/download/literatures/UPY-C_GEN_24.pdf</field>
+        <field name="height">0.9mm</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">1aeb194455b4965b</field>
+        <field name="manufacturer">YAGEO</field>
+        <field name="material">Ceramic</field>
+        <field name="mouser description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 1.0nF 50V X7R 10%</field>
+        <field name="mouser part number">603-CC603KRX7R9BB102</field>
+        <field name="package">0603</field>
+        <field name="rohs">Yes</field>
+        <field name="temperature characteristic">X7R</field>
+        <field name="temperature coefficient">15%</field>
+        <field name="temperature range high">+125°C</field>
+        <field name="temperature range low">-55°C</field>
+        <field name="tolerance">0.1</field>
+        <field name="voltage">50 V</field>
+        <field name="voltage rating">50 V</field>
+      </fields>
+      <libsource lib="project" part="CC0603KRX7R9BB102" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601246D1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>RC0603FR-071ML</value>
+      <footprint>project:Yageo-RC0603-0-0-IPC_A</footprint>
+      <fields>
+        <field name="approved alternate part number">541-1.00HHCT-ND</field>
+        <field name="category">Res</field>
+        <field name="composition">Thick Film</field>
+        <field name="device class L1">Passive Components</field>
+        <field name="device class L2">Resistors</field>
+        <field name="device class L3">Chip SMD Resistors</field>
+        <field name="digikey description">RES SMD 1M OHM 1% 1/10W 0603</field>
+        <field name="digikey part number">311-1.00MHRTR-ND</field>
+        <field name="height">0.5mm</field>
+        <field name="ipc land pattern name">RESC15585X45</field>
+        <field name="lead free">yes</field>
+        <field name="library id">aaa16372193e1608</field>
+        <field name="manufacturer">Yageo</field>
+        <field name="mouser description">RC Series 0603 0.1 W 1 MOhms 1% ±100 ppm/°C SMT Thick Film Chip Resistor</field>
+        <field name="mouser part number">311-1.00MHRTR-ND</field>
+        <field name="package">0603</field>
+        <field name="power">100mW</field>
+        <field name="power rating">0.1W</field>
+        <field name="resistance">1MΩ</field>
+        <field name="rohs">yes</field>
+        <field name="series">RC</field>
+        <field name="standoff height">0mm</field>
+        <field name="temperature coefficient">100ppm/°C</field>
+        <field name="temperature range high">+155°C</field>
+        <field name="temperature range low">-55°C</field>
+        <field name="tolerance">1%</field>
+        <field name="voltage">75V</field>
+        <field name="voltage rating">75V</field>
+      </fields>
+      <libsource lib="project" part="RC0603FR-071ML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6012821D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>TEMD7000X01</value>
+      <footprint>project:XDCR_TEMD7000X01</footprint>
+      <fields>
+        <field name="MF">Vishay Semiconductor</field>
+      </fields>
+      <libsource lib="project" part="TEMD7000X01" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6012DAB0</tstamp>
     </comp>
   </components>
   <libparts>
@@ -126,6 +278,149 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="project" part="22-28-4043">
+      <docs>http://www.molex.com/pdm_docs/sd/022284043_sd.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">22-28-4043</field>
+        <field name="Footprint">project:Molex-SD-42375-001-0-0-0</field>
+        <field name="3D model">http://www.molex.com/pdm_docs/stp/22-28-4043_stp.zip</field>
+        <field name="Application">Board-to-Board, Signal, Wire-to-Board</field>
+        <field name="Breakaway">Yes</field>
+        <field name="CSA">LR19980</field>
+        <field name="Category">PCB Headers</field>
+        <field name="Circuits Loaded">4</field>
+        <field name="Circuits maximum">4</field>
+        <field name="Color   Resin">Black</field>
+        <field name="Current   Maximum per Contact">4.0A</field>
+        <field name="Durability mating cycles max">100</field>
+        <field name="Duration at Max Process Temperature seconds">005</field>
+        <field name="First Mate  Last Break">No</field>
+        <field name="Flammability">94V-0</field>
+        <field name="Glow Wire Compliant">No</field>
+        <field name="Guide to Mating Part">No</field>
+        <field name="Keying to Mating Part">None</field>
+        <field name="Lead freeProcess Capability">WAVE</field>
+        <field name="Lock to Mating Part">None</field>
+        <field name="Material   Metal">Brass</field>
+        <field name="Material   Plating Mating">Gold</field>
+        <field name="Material   Plating Termination">Tin</field>
+        <field name="Material   Resin">High Temperature Thermoplastic</field>
+        <field name="Max Cycles at Max Process Temperature">001</field>
+        <field name="Net Weight">0.244/g</field>
+        <field name="Number of Rows">1</field>
+        <field name="Old Part Number">42375-0039</field>
+        <field name="Orientation">Vertical</field>
+        <field name="Overview">KK® Interconnect System - Molex</field>
+        <field name="PCB Locator">No</field>
+        <field name="PCB Retention">None</field>
+        <field name="PCB Thickness   Recommended">1.60mm</field>
+        <field name="PC Tail Length">3.18mm</field>
+        <field name="Packaging Type">Bag</field>
+        <field name="Pitch   Mating Interface">2.54mm</field>
+        <field name="Plating min   Mating">0.381μm</field>
+        <field name="Plating min   Termination">2.540μm</field>
+        <field name="Polarized to Mating Part">No</field>
+        <field name="Polarized to PCB">No</field>
+        <field name="Process Temperature max C">260</field>
+        <field name="Product Name">KK® 254</field>
+        <field name="Product Specification">PS-10-07</field>
+        <field name="Sales Drawing">SD-42375-001</field>
+        <field name="Series">42375</field>
+        <field name="Shrouded">No</field>
+        <field name="Stackable">No</field>
+        <field name="Surface Mount Compatible SMC">Yes</field>
+        <field name="Temperature Range   Operating">See Product Specification</field>
+        <field name="Termination Interface Style">Through Hole</field>
+        <field name="UL">E29179</field>
+        <field name="UPC">800754386197</field>
+        <field name="Voltage   Maximum">250V</field>
+        <field name="category">Conn</field>
+        <field name="category 0836c53c3d42d3f1">Connectors</field>
+        <field name="category 75fab8f04590ae3d">Connectors and Adapters</field>
+        <field name="category e7012a0bd22e3cc6">Headers &amp; Receptacles</field>
+        <field name="digikey description">CONN HEADER 4POS .100 VERT GOLD</field>
+        <field name="digikey part number">WM50016-04-ND</field>
+        <field name="ipc land pattern name">HDRV4W66P254_1X4_1016X66X457</field>
+        <field name="is connector">yes</field>
+        <field name="is male">yes</field>
+        <field name="lead free">yes</field>
+        <field name="library id">1b2cd2f48c261c21</field>
+        <field name="manufacturer">Molex</field>
+        <field name="mounting type">through hole</field>
+        <field name="mouser part number">538-22-28-4043</field>
+        <field name="num pins">4</field>
+        <field name="octopart part number">44448d4a5f9d9b83</field>
+        <field name="package">CONN_PTH_HDR4</field>
+        <field name="rohs">yes</field>
+        <field name="temperature range high">+80°C</field>
+        <field name="temperature range low">-40°C</field>
+        <field name="type">connector</field>
+        <field name="voltage">250V</field>
+        <field name="color">Black</field>
+        <field name="contact material">Brass</field>
+        <field name="contact plating">Gold</field>
+        <field name="current rating">4 A</field>
+        <field name="flammability rating">UL 94 V-0</field>
+        <field name="gender">Male</field>
+        <field name="glow wire compliant">Non-Compliant</field>
+        <field name="halogen free status">Not Low Halogen</field>
+        <field name="housing color">Black</field>
+        <field name="number of circuits">4 </field>
+        <field name="number of contacts">4 </field>
+        <field name="number of positions">4 </field>
+        <field name="number of rows">1 </field>
+        <field name="orientation">Vertical</field>
+        <field name="part page">http://www.molex.com/molex/products/datasheet.jsp?part=active/0022284043_PCB_HEADERS.xml</field>
+        <field name="pin pitch">2.54 mm</field>
+        <field name="size height">2.29 mm</field>
+        <field name="size length">10.16 mm</field>
+        <field name="size width">2.49 mm</field>
+        <field name="voltage rating dc">250 V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+        <pin num="3" name="3" type="unspc"/>
+        <pin num="4" name="4" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="project" part="CC0603KRX7R9BB102">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CC0603KRX7R9BB102</field>
+        <field name="Footprint">project:YAGEO-CC0603-0-0-0</field>
+        <field name="automotive">No</field>
+        <field name="capacitance">1.0 nF</field>
+        <field name="category">Cap</field>
+        <field name="device class L1">Passive Components</field>
+        <field name="device class L2">Capacitors</field>
+        <field name="device class L3">Ceramic Capacitors</field>
+        <field name="digikey description">CAP CER 1000PF 50V X7R 0603</field>
+        <field name="digikey part number">311-1080-2-ND</field>
+        <field name="footprint url">http://www.yageo.com/exep/pages/download/literatures/UPY-C_GEN_24.pdf</field>
+        <field name="height">0.9mm</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">1aeb194455b4965b</field>
+        <field name="manufacturer">YAGEO</field>
+        <field name="material">Ceramic</field>
+        <field name="mouser description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 1.0nF 50V X7R 10%</field>
+        <field name="mouser part number">603-CC603KRX7R9BB102</field>
+        <field name="package">0603</field>
+        <field name="rohs">Yes</field>
+        <field name="temperature characteristic">X7R</field>
+        <field name="temperature coefficient">15%</field>
+        <field name="temperature range high">+125°C</field>
+        <field name="temperature range low">-55°C</field>
+        <field name="tolerance">0.1</field>
+        <field name="voltage">50 V</field>
+        <field name="voltage rating">50 V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="project" part="Field_Sensor_54_22">
       <fields>
         <field name="Reference">Y</field>
@@ -137,26 +432,89 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="project" part="RC0603FR-071ML">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0603FR-071ML</field>
+        <field name="Footprint">project:Yageo-RC0603-0-0-IPC_A</field>
+        <field name="approved alternate part number">541-1.00HHCT-ND</field>
+        <field name="category">Res</field>
+        <field name="composition">Thick Film</field>
+        <field name="device class L1">Passive Components</field>
+        <field name="device class L2">Resistors</field>
+        <field name="device class L3">Chip SMD Resistors</field>
+        <field name="digikey description">RES SMD 1M OHM 1% 1/10W 0603</field>
+        <field name="digikey part number">311-1.00MHRTR-ND</field>
+        <field name="height">0.5mm</field>
+        <field name="ipc land pattern name">RESC15585X45</field>
+        <field name="lead free">yes</field>
+        <field name="library id">aaa16372193e1608</field>
+        <field name="manufacturer">Yageo</field>
+        <field name="mouser description">RC Series 0603 0.1 W 1 MOhms 1% ±100 ppm/°C SMT Thick Film Chip Resistor</field>
+        <field name="mouser part number">311-1.00MHRTR-ND</field>
+        <field name="package">0603</field>
+        <field name="power">100mW</field>
+        <field name="power rating">0.1W</field>
+        <field name="resistance">1MΩ</field>
+        <field name="rohs">yes</field>
+        <field name="series">RC</field>
+        <field name="standoff height">0mm</field>
+        <field name="temperature coefficient">100ppm/°C</field>
+        <field name="temperature range high">+155°C</field>
+        <field name="temperature range low">-55°C</field>
+        <field name="tolerance">1%</field>
+        <field name="voltage">75V</field>
+        <field name="voltage rating">75V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="project" part="TEMD7000X01">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TEMD7000X01</field>
+        <field name="Footprint">project:XDCR_TEMD7000X01</field>
+        <field name="MF">Vishay Semiconductor</field>
+      </fields>
+      <pins>
+        <pin num="A" name="~" type="passive"/>
+        <pin num="C" name="~" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="project">
-      <uri>C:\Users\Brad\Documents\Nth\FieldSensorYSO/project.lib</uri>
+      <uri>/Users/bradoraw/Desktop/Nth/FieldSensorYSO/project.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(J2-Pad2)">
-      <node ref="J2" pin="2"/>
+    <net code="1" name="/HSEN">
+      <node ref="Y1" pin="1"/>
+      <node ref="J1" pin="3"/>
     </net>
-    <net code="2" name="Net-(J2-Pad1)">
+    <net code="2" name="GND">
+      <node ref="Y1" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J2-Pad1)">
       <node ref="J2" pin="1"/>
     </net>
-    <net code="3" name="GND">
-      <node ref="Y1" pin="2"/>
-      <node ref="J1" pin="2"/>
+    <net code="4" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
     </net>
-    <net code="4" name="/HSEN">
-      <node ref="Y1" pin="1"/>
+    <net code="6" name="/5V">
+      <node ref="D1" pin="C"/>
       <node ref="J1" pin="1"/>
+    </net>
+    <net code="7" name="/LSEN">
+      <node ref="D1" pin="A"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J1" pin="2"/>
     </net>
   </nets>
 </export>

@@ -3,23 +3,11 @@ M48
 ; FORMAT={-:-/ absolute / inch / decimal}
 ; #@! TF.CreationDate,2021-01-27T12:26:29-07:00
 ; #@! TF.GenerationSoftware,Kicad,Pcbnew,(5.1.5-0-10_14)
-; #@! TF.FileFunction,Plated,1,2,PTH
+; #@! TF.FileFunction,NonPlated,1,2,NPTH
 FMAT,2
 INCH
-T1C0.0157
-T2C0.0402
 %
 G90
 G05
-T1
-X3.7992Y-4.1732
-X5.7047Y-4.063
-T2
-X3.622Y-4.1339
-X3.622Y-4.2339
-X3.622Y-4.3339
-X3.622Y-4.4339
-X5.2937Y-4.0354
-X5.3937Y-4.0354
 T0
 M30

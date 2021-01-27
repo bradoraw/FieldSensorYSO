@@ -41,6 +41,123 @@ X 2 2 -100 -200 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 22-28-4043
+#
+DEF 22-28-4043 J 0 0 Y Y 1 F N
+F0 "J" 0 300 50 H V L CNN
+F1 "22-28-4043" 0 400 50 H V L CNN
+F2 "project:Molex-SD-42375-001-0-0-0" 0 500 50 H I L CNN
+F3 "" 0 600 50 H I L CNN
+F4 "http://www.molex.com/pdm_docs/stp/22-28-4043_stp.zip" 0 700 50 H I L CNN "3D model"
+F5 "Board-to-Board, Signal, Wire-to-Board" 0 800 50 H I L CNN "Application"
+F6 "Yes" 0 900 50 H I L CNN "Breakaway"
+F7 "LR19980" 0 1000 50 H I L CNN "CSA"
+F8 "PCB Headers" 0 1100 50 H I L CNN "Category"
+F9 "4" 0 1200 50 H I L CNN "Circuits Loaded"
+F10 "4" 0 1300 50 H I L CNN "Circuits maximum"
+F11 "Black" 0 1400 50 H I L CNN "Color   Resin"
+F12 "4.0A" 0 1500 50 H I L CNN "Current   Maximum per Contact"
+F13 "100" 0 1600 50 H I L CNN "Durability mating cycles max"
+F14 "005" 0 1700 50 H I L CNN "Duration at Max Process Temperature seconds"
+F15 "No" 0 1800 50 H I L CNN "First Mate  Last Break"
+F16 "94V-0" 0 1900 50 H I L CNN "Flammability"
+F17 "No" 0 2000 50 H I L CNN "Glow Wire Compliant"
+F18 "No" 0 2100 50 H I L CNN "Guide to Mating Part"
+F19 "None" 0 2200 50 H I L CNN "Keying to Mating Part"
+F20 "WAVE" 0 2300 50 H I L CNN "Lead freeProcess Capability"
+F21 "None" 0 2400 50 H I L CNN "Lock to Mating Part"
+F22 "Brass" 0 2500 50 H I L CNN "Material   Metal"
+F23 "Gold" 0 2600 50 H I L CNN "Material   Plating Mating"
+F24 "Tin" 0 2700 50 H I L CNN "Material   Plating Termination"
+F25 "High Temperature Thermoplastic" 0 2800 50 H I L CNN "Material   Resin"
+F26 "001" 0 2900 50 H I L CNN "Max Cycles at Max Process Temperature"
+F27 "0.244/g" 0 3000 50 H I L CNN "Net Weight"
+F28 "1" 0 3100 50 H I L CNN "Number of Rows"
+F29 "42375-0039" 0 3200 50 H I L CNN "Old Part Number"
+F30 "Vertical" 0 3300 50 H I L CNN "Orientation"
+F31 "KK® Interconnect System - Molex" 0 3400 50 H I L CNN "Overview"
+F32 "No" 0 3500 50 H I L CNN "PCB Locator"
+F33 "None" 0 3600 50 H I L CNN "PCB Retention"
+F34 "1.60mm" 0 3700 50 H I L CNN "PCB Thickness   Recommended"
+F35 "3.18mm" 0 3800 50 H I L CNN "PC Tail Length"
+F36 "Bag" 0 3900 50 H I L CNN "Packaging Type"
+F37 "2.54mm" 0 4000 50 H I L CNN "Pitch   Mating Interface"
+F38 "0.381μm" 0 4100 50 H I L CNN "Plating min   Mating"
+F39 "2.540μm" 0 4200 50 H I L CNN "Plating min   Termination"
+F40 "No" 0 4300 50 H I L CNN "Polarized to Mating Part"
+F41 "No" 0 4400 50 H I L CNN "Polarized to PCB"
+F42 "260" 0 4500 50 H I L CNN "Process Temperature max C"
+F43 "KK® 254" 0 4600 50 H I L CNN "Product Name"
+F44 "PS-10-07" 0 4700 50 H I L CNN "Product Specification"
+F45 "SD-42375-001" 0 4800 50 H I L CNN "Sales Drawing"
+F46 "42375" 0 4900 50 H I L CNN "Series"
+F47 "No" 0 5000 50 H I L CNN "Shrouded"
+F48 "No" 0 5100 50 H I L CNN "Stackable"
+F49 "Yes" 0 5200 50 H I L CNN "Surface Mount Compatible SMC"
+F50 "See Product Specification" 0 5300 50 H I L CNN "Temperature Range   Operating"
+F51 "Through Hole" 0 5400 50 H I L CNN "Termination Interface Style"
+F52 "E29179" 0 5500 50 H I L CNN "UL"
+F53 "800754386197" 0 5600 50 H I L CNN "UPC"
+F54 "250V" 0 5700 50 H I L CNN "Voltage   Maximum"
+F55 "Conn" 0 5800 50 H I L CNN "category"
+F56 "Connectors" 0 5900 50 H I L CNN "category 0836c53c3d42d3f1"
+F57 "Connectors and Adapters" 0 6000 50 H I L CNN "category 75fab8f04590ae3d"
+F58 "Headers & Receptacles" 0 6100 50 H I L CNN "category e7012a0bd22e3cc6"
+F59 "CONN HEADER 4POS .100 VERT GOLD" 0 6200 50 H I L CNN "digikey description"
+F60 "WM50016-04-ND" 0 6300 50 H I L CNN "digikey part number"
+F61 "HDRV4W66P254_1X4_1016X66X457" 0 6400 50 H I L CNN "ipc land pattern name"
+F62 "yes" 0 6500 50 H I L CNN "is connector"
+F63 "yes" 0 6600 50 H I L CNN "is male"
+F64 "yes" 0 6700 50 H I L CNN "lead free"
+F65 "1b2cd2f48c261c21" 0 6800 50 H I L CNN "library id"
+F66 "Molex" 0 6900 50 H I L CNN "manufacturer"
+F67 "through hole" 0 7000 50 H I L CNN "mounting type"
+F68 "538-22-28-4043" 0 7100 50 H I L CNN "mouser part number"
+F69 "4" 0 7200 50 H I L CNN "num pins"
+F70 "44448d4a5f9d9b83" 0 7300 50 H I L CNN "octopart part number"
+F71 "CONN_PTH_HDR4" 0 7400 50 H I L CNN "package"
+F72 "yes" 0 7500 50 H I L CNN "rohs"
+F73 "+80°C" 0 7600 50 H I L CNN "temperature range high"
+F74 "-40°C" 0 7700 50 H I L CNN "temperature range low"
+F75 "connector" 0 7800 50 H I L CNN "type"
+F76 "250V" 0 7900 50 H I L CNN "voltage"
+F77 "Black" 0 8000 50 H I L CNN "color"
+F78 "Brass" 0 8100 50 H I L CNN "contact material"
+F79 "Gold" 0 8200 50 H I L CNN "contact plating"
+F80 "4 A" 0 8300 50 H I L CNN "current rating"
+F81 "UL 94 V-0" 0 8400 50 H I L CNN "flammability rating"
+F82 "Male" 0 8500 50 H I L CNN "gender"
+F83 "Non-Compliant" 0 8600 50 H I L CNN "glow wire compliant"
+F84 "Not Low Halogen" 0 8700 50 H I L CNN "halogen free status"
+F85 "Black" 0 8800 50 H I L CNN "housing color"
+F86 "4 " 0 8900 50 H I L CNN "number of circuits"
+F87 "4 " 0 9000 50 H I L CNN "number of contacts"
+F88 "4 " 0 9100 50 H I L CNN "number of positions"
+F89 "1 " 0 9200 50 H I L CNN "number of rows"
+F90 "Vertical" 0 9300 50 H I L CNN "orientation"
+F91 "http://www.molex.com/molex/products/datasheet.jsp?part=active/0022284043_PCB_HEADERS.xml" 0 9400 50 H I L CNN "part page"
+F92 "2.54 mm" 0 9500 50 H I L CNN "pin pitch"
+F93 "2.29 mm" 0 9600 50 H I L CNN "size height"
+F94 "10.16 mm" 0 9700 50 H I L CNN "size length"
+F95 "2.49 mm" 0 9800 50 H I L CNN "size width"
+F96 "250 V" 0 9900 50 H I L CNN "voltage rating dc"
+DRAW
+S -300 200 -100 -800 1 1 0 f
+S -250 -580 -180 -620 1 1 0 F
+S -250 -380 -180 -420 1 1 0 F
+S -250 -180 -180 -220 1 1 0 F
+S -250 20 -180 -20 1 1 0 F
+P 2 1 1 0 -170 -600 -100 -600 N
+P 2 1 1 0 -170 -400 -100 -400 N
+P 2 1 1 0 -170 -200 -100 -200 N
+P 2 1 1 0 -170 0 -100 0 N
+X 1 1 0 0 100 L 40 40 1 1 U
+X 2 2 0 -200 100 L 40 40 1 1 U
+X 3 3 0 -400 100 L 40 40 1 1 U
+X 4 4 0 -600 100 L 40 40 1 1 U
+ENDDRAW
+ENDDEF
+#
 # 475890001
 #
 DEF 475890001 J 0 0 Y Y 1 F N
@@ -1440,6 +1557,54 @@ X 2 2 600 0 100 L 40 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# RC0603FR-071ML
+#
+DEF RC0603FR-071ML R 0 40 Y Y 1 F N
+F0 "R" 0 200 50 H V L CNN
+F1 "RC0603FR-071ML" 0 300 50 H I L CNN
+F2 "project:Yageo-RC0603-0-0-IPC_A" 0 400 50 H I L CNN
+F3 "" 0 500 50 H I L CNN
+F4 "541-1.00HHCT-ND" 0 600 50 H I L CNN "approved alternate part number"
+F5 "Res" 0 700 50 H I L CNN "category"
+F6 "Thick Film" 0 800 50 H I L CNN "composition"
+F7 "Passive Components" 0 900 50 H I L CNN "device class L1"
+F8 "Resistors" 0 1000 50 H I L CNN "device class L2"
+F9 "Chip SMD Resistors" 0 1100 50 H I L CNN "device class L3"
+F10 "RES SMD 1M OHM 1% 1/10W 0603" 0 1200 50 H I L CNN "digikey description"
+F11 "311-1.00MHRTR-ND" 0 1300 50 H I L CNN "digikey part number"
+F12 "0.5mm" 0 1400 50 H I L CNN "height"
+F13 "RESC15585X45" 0 1500 50 H I L CNN "ipc land pattern name"
+F14 "yes" 0 1600 50 H I L CNN "lead free"
+F15 "aaa16372193e1608" 0 1700 50 H I L CNN "library id"
+F16 "Yageo" 0 1800 50 H I L CNN "manufacturer"
+F17 "RC Series 0603 0.1 W 1 MOhms 1% ±100 ppm/°C SMT Thick Film Chip Resistor" 0 1900 50 H I L CNN "mouser description"
+F18 "311-1.00MHRTR-ND" 0 2000 50 H I L CNN "mouser part number"
+F19 "0603" 0 2100 50 H V L CNN "package"
+F20 "100mW" 0 2200 50 H I L CNN "power"
+F21 "0.1W" 0 2300 50 H I L CNN "power rating"
+F22 "1MΩ" 0 2400 50 H V L CNN "resistance"
+F23 "yes" 0 2500 50 H I L CNN "rohs"
+F24 "RC" 0 2600 50 H I L CNN "series"
+F25 "0mm" 0 2700 50 H I L CNN "standoff height"
+F26 "100ppm/°C" 0 2800 50 H I L CNN "temperature coefficient"
+F27 "+155°C" 0 2900 50 H I L CNN "temperature range high"
+F28 "-55°C" 0 3000 50 H I L CNN "temperature range low"
+F29 "1%" 0 3100 50 H I L CNN "tolerance"
+F30 "75V" 0 3200 50 H I L CNN "voltage"
+F31 "75V" 0 3300 50 H I L CNN "voltage rating"
+DRAW
+P 2 1 1 0 200 0 230 50 N
+P 2 1 1 0 230 50 280 -50 N
+P 2 1 1 0 280 -50 330 50 N
+P 2 1 1 0 330 50 380 -50 N
+P 2 1 1 0 380 -50 430 50 N
+P 2 1 1 0 430 50 480 -50 N
+P 2 1 1 0 480 -50 500 0 N
+X 1 1 100 0 100 R 40 0 1 1 P
+X 2 2 600 0 100 L 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # RC0603FR-074K7L
 #
 DEF RC0603FR-074K7L R 0 40 Y Y 1 F N
@@ -1928,6 +2093,38 @@ X SSEN 6 100 -700 100 R 40 40 1 1 I
 X OEB 7 100 -600 100 R 40 40 1 1 I
 X CLK3 8 1100 -300 100 L 40 40 1 1 U
 X CLK2 9 1100 -200 100 L 40 40 1 1 U
+ENDDRAW
+ENDDEF
+#
+# TEMD7000X01
+#
+DEF TEMD7000X01 D 0 40 Y N 1 F N
+F0 "D" -22 177 50 H V L BNN
+F1 "TEMD7000X01" -40 -130 50 H V L BNN
+F2 "project:XDCR_TEMD7000X01" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Vishay Semiconductor" 0 0 50 H I L BNN "MF"
+DRAW
+P 2 0 0 10 0 -60 100 0 N
+P 2 0 0 10 0 60 0 -60 N
+P 2 0 0 10 30 80 43 118 N
+P 2 0 0 10 30 80 100 160 N
+P 2 0 0 10 42 89 47 89 N
+P 2 0 0 10 43 118 42 89 N
+P 2 0 0 10 43 118 65 99 N
+P 2 0 0 10 58 102 49 96 N
+P 2 0 0 10 65 99 30 80 N
+P 2 0 0 10 79 76 92 114 N
+P 2 0 0 10 79 76 149 156 N
+P 2 0 0 10 91 85 96 85 N
+P 2 0 0 10 92 114 91 85 N
+P 2 0 0 10 92 114 114 95 N
+P 2 0 0 10 100 0 0 60 N
+P 2 0 0 10 100 60 100 -60 N
+P 2 0 0 10 107 98 98 92 N
+P 2 0 0 10 114 95 79 76 N
+X ~ A -200 0 200 R 40 40 0 0 P
+X ~ C 300 0 200 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #

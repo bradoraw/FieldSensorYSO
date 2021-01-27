@@ -1,0 +1,10 @@
+### Module positions - created on Wednesday, January 27, 2021 at 12:26:44 PM ###
+### Printed by Pcbnew version kicad (5.1.5-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                 Package                      PosX       PosY       Rot  Side
+C1        CC0603KRX7R9BB102   YAGEO-CC0603-0-0-0        -4.5000     6.5000  270.0000  bottom
+D1        TEMD7000X01         XDCR_TEMD7000X01         -56.0000    12.5000   90.0000  bottom
+R1        RC0603FR-071ML      Yageo-RC0603-0-0-IPC_A    -6.5000     6.5000  270.0000  bottom
+Y1        Field_Sensor_54_22  Field_Sensor_54_22         6.5000    12.5000    0.0000  top
+## End
